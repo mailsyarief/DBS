@@ -471,7 +471,7 @@ a.navbar-brand {
 .banner {
     text-align: center;
     color: #fff;
-    background: url(../images/banner.jpg) no-repeat;
+    background: url(../images/indexbg.jpg) no-repeat;
     background-attachment: scroll;
     background-position: center center;
     -webkit-background-size: cover;
@@ -580,6 +580,11 @@ iframe {
 .about-img {
     position: relative;
 }
+
+.about-img img{
+    margin-left: -100px;
+}
+
 
 .about-img .head-text {
     position: absolute;
