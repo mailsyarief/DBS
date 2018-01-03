@@ -563,7 +563,7 @@ a.navbar-brand {
     background-size: cover;
     background-position: center;
 }
-
+Fa
 #about-section-2 {
     background: #f9f9f9;
     padding-top: 80px;
@@ -584,6 +584,7 @@ iframe {
 .about-img img{
     margin-left: -120px;
     margin-top: -68px;
+    max-width: 420px;
 }
 
 
