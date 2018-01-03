@@ -325,14 +325,17 @@
 
 <script>
 window.sr = ScrollReveal();
-sr.reveal('.navbar',{ duration: 2500, origin: 'bottom' });
+sr.reveal('.navbar',{ duration: 1500, origin: 'right', distance:'500px', reset: true });
 
-sr.reveal('.showcase-left',{ 
-    duration: 2500, 
-    delay:800,
-    origin:'left',
-    distance: '300px'
-});
+sr.reveal('.about-img',{ duration: 1500, origin: 'left', distance:'500px' });
+sr.reveal('.about-text',{ duration: 1500, origin: 'right', distance:'500px' });
+sr.reveal('.about-list',{ duration: 1500, origin: 'right', distance:'500px' });
+
+sr.reveal('.call-to-action',{ duration: 1500, origin: 'bottom',  viewFactor: 0.2, reset: true });
+
+
+
+sr.reveal('.copyright-section',{ duration: 1500, origin: 'bottom',  viewFactor: 0.2, reset: true });
 
 
 </script>
