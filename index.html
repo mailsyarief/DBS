@@ -83,7 +83,7 @@
             <!-- End Top Bar -->
         
             <!-- Start  Logo & Naviagtion  -->
-            <div class="navbar navbar-default navbar-top">
+            <div class="navbar navbar-default navbar-top" id="navbar">
                 <div class="container">
                     <div class="navbar-header">
                         <!-- Stat Toggle Nav Link For Mobiles -->
@@ -100,10 +100,10 @@
                                 <a class="active" href="index.html">Tentang Kami</a>
                             </li>
                             <li>
-                                <a href="service.html">Layanan</a>
+                                <a href="#service.html">Layanan</a>
                             </li>
                             </li>
-                            <li><a href="contact.html">Hubungi</a>
+                            <li><a href="#contact.html">Hubungi</a>
                             </li>
                         </ul>
                         <!-- End Navigation List -->
@@ -322,5 +322,26 @@
         <script src="asset/js/script.js"></script> 
         
     
+
+<script>
+window.sr = ScrollReveal();
+sr.reveal('.navbar',{ duration: 2500, origin: 'bottom' });
+
+sr.reveal('.showcase-left',{ 
+    duration: 2500, 
+    delay:800,
+    origin:'left',
+    distance: '300px'
+});
+
+
+</script>
+
+
+
+
+
+
+
     </body>
 </html>
