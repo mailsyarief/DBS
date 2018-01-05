@@ -134,9 +134,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .page-header {
-    background: url(../images/banner.jpg) no-repeat;
+    background-color: #FF432E;
+    background-size: 100%;
+    background-position: 50% 90%;
     padding: 50px 0;
     margin-top: 80px;
+
 }
 
 .page-header h1 {
@@ -1236,9 +1239,10 @@ and (min-width : 551px){
 /*----------------------------------------------------------*/
 
 .fun-facts {
-    background: url(../images/parallax/bg-02.jpg);
+    background: url(../images/parallax/security.jpg);
     background-attachment: fixed;
     background-size: cover;
+    background-position: 50% 10%;
     padding-top: 120px;
     padding-bottom: 80px;
     overflow: hidden;
@@ -1356,10 +1360,16 @@ h3.pricing-title {
 
 
 #testimonial-section {
-    background: url(../images/parallax/call-to.jpg) no-repeat;
-    background-size: cover;
+    background: url(../images/parallax/office.jpg) no-repeat;
     padding: 100px 0;
     color: #fff;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 90%;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    overflow: hidden;
+
 }
 
 .testimonial-item {
