@@ -833,10 +833,10 @@ iframe {
 
 
 .call-to-action {
-    background: url(../images/parallax/call-to.jpg);
+    background: url(../images/parallax/office.jpg);
     background-attachment: fixed;
     background-size: cover;
-    background-position: 50% 90%;
+    background-position: 50% 100%;
     color: #fff;
     text-align: center;
     padding: 100px 0;
@@ -1248,8 +1248,8 @@ and (min-width : 551px){
     overflow: hidden;
 }
 
+
 .counter-item {
-    position:relative;
     text-align:center;
     margin-bottom: 40px;
     background: #fff;
@@ -1257,12 +1257,14 @@ and (min-width : 551px){
 }
 
 .counter-item p {
+    padding-top: 50px;
     padding-bottom: 10px;
     color: #111;
 }
 
 .counter-item h3 {
   text-align:center;
+  padding-top: 30px;    
   margin-bottom:0px;
   color:#111;
     text-transform: none;
