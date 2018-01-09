@@ -613,6 +613,25 @@ iframe {
     margin-right: 10px;
 }
 
+/** adress section **/
+
+.address-section{
+    padding: 60px;
+    background-color: #efefef;
+}
+
+.address-list li{
+    padding: 10px;
+}
+
+.address-list p{
+    font-size: 20px;
+}
+
+
+#icon{
+ margin-right: 30px; 
+}
 
 
 /** Toggles & Accordion **/
