@@ -1298,17 +1298,6 @@ and (min-width : 551px){
 }
 
 
-.timer {
-    padding: 10px 0;
-    color: #111;
-    font-size: 48px;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align:center;
-    line-height:80px;
-    //font-family: 'Oswald', sans-serif;
-}
-
 
 
 /****************************************/
